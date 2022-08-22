@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="DAAS, drones, autonomous systems, drones and autonomous systems, drones and autonomous systems club, daas ksu, نادي الدرونز, ksu">
+    <title>DAAS</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!--Favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon_io/site.webmanifest">
+    <!--AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--Fonts-->
+    <link  href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;400&display=swap" rel="stylesheet">
+</head>
+<body id="body-ar">
+  <div class="vh-100">
+   <div id="main-bc" class="w-100">  
+     <div id="upper-layer" class="w-100 d-flex flex-column-reverse flex-md-row text-center text-md-end justify-content-md-between pb-5 pb-md-0 pt-md-5" style="-moz-transform: scaleX(-1);
+     -o-transform: scaleX(-1);
+     -webkit-transform: scaleX(-1);
+     transform: scaleX(-1);
+     filter: FlipH;
+     -ms-filter: 'FlipH';">
+        <p id="club-name-ar" class="align-self-start align-self-md-center mb-5 mb-md-0 " style="-webkit-transform: scaleX(-1);
+        transform: scaleX(-1);">نادي الطائرات بدون طيار والأنظمة الذاتية</p>
+        <img src="images/drone.png" height="700" class="align-self-md-center mt-md-5" id="main-bc-drone">
+     </div>
+        <header id="header">
+            <nav class="navbar navbar-expand-lg" id="navbar-ar" dir="rtl">
+              <div class="container-fluid d-flex">
+                <div class="d-flex p-3 ml-5">
+                    <a class="navbar-brand" href="index.html"><img src="images/Logo.png" id="Logo"></a>
+                </div>
+                <span style="width:2em"></span>
+                    <div class="collapse navbar-collapse mt-3 ml-5" id="navbarNav" dir="ltr">
+                        <ul class="col-12 navbar-nav h6 d-flex">
+                            <span style="width:2em"></span>
+                            <li class="nav-item d-flex justify-content-between justify-self-start">
+                                <a class="nav-link nav-links nav-li lang-btn non-active-lang" id="en-btn" href="index_en.html">En</a>
+                                <span class="col-2"></span>
+                                <a class="nav-link nav-links nav-li lang-btn active-lang" id="ar-btn" href="#">ع</a>
+                            </li>
+                            <span class="col-1"></span>
+                            <div class="d-flex ">
+                                <li class="nav-item">
+                                    <a class="nav-link nav-links nav-li" href="structure.html">هيكلة النادي&nbsp;&nbsp;&nbsp;</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link nav-links nav-li nav-li" href="#">الرئيسية&nbsp;&nbsp;&nbsp;</a>
+                                    <div class="current-tab"></div>
+                                </li>
+                           </div>
+                        </ul>
+                    </div>
+                    <button class="navbar-toggler float-left mt-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" aria-expanded="false" aria-label="Toggle navigation" id="sidemenu-btn">
+                        <span class="navbar-toggler-icon">&#9776;</span>
+                    </button>
+              </div>
+            <!---------------Canvas---------------->
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel" dir="ltr">
+                <div class="offcanvas-header">
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close" id="closebtn"></button>
+                </div>
+                <div class="offcanvas-body navbar-light text-center"> 
+                <a class="navbar-brand " href="#"><img src="images/Logo.png" id="Logo"></a>
+                <ul class="container navbar-nav h6 fw-1 text-center mt-5">
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">الرئيسية</a>
+                    </li>
+                    <span class="dropdown-divider col-6 m-auto mt-2 mb-2"></span>
+                    <li class="nav-item">
+                    <a class="nav-link"  href="structure.html">هيكلة النادي</a>
+                    </li>
+                    <span class="dropdown-divider col-6 m-auto mb-5"></span>
+                    <li class="w-100 d-flex nav-item justify-content-center mt-5">
+                        <a class="nav-link nav-links nav-li lang-btn non-active-lang" id="en-btn" href="index_en.html">En</a>
+                        <div style="width:2rem"></div>
+                        <a class="nav-link nav-links nav-li lang-btn active-lang" id="ar-btn" href="#">ع</a>
+                    </li>
+                </ul> 
+                </div>
+            </div>
+            <!--------------------------------------> 
+            </nav>
+        </header>   
+            
+     </div>
+   </div>
+   <div class="seperator"></div>
+   <!--About-->
+   <div class="d-flex flex-column mt-5 pt-5 pb-0 pb-md-5" data-aos="fade-down" data-aos-delay="0.5s" data-aos-duration="0.9s">
+    <div class="align-self-center mb-5">
+        <h5 class="titles">نبذة عن النادي</h5>
+        <div class="titles-underline mt-3"></div>
+    </div>
+    <div class="container d-flex justify-content-around">
+        <p class="paragraphs align-self-center w-75 w-lg-50 mt-5 text-center">
+           نادي طلابي في جامعة الملك سعود، مهتم بمجال الطائرات بدون طيار والأنظمة الذاتية
+        </p>
+     </div>
+   </div>
+   <!--Vision-->
+   <div>
+     <div class="flex-column flex-md-row d-flex mt-5 mb-5 mt-md-5 pt-5 pb-5 justify-md-content-between">
+        <div class="d-flex justify-content-start">
+            <img src="images/Group 11.png" height="600" id="tech-img" data-aos="fade-right" data-aos-delay="0.5s" data-aos-duration="0.7s" style="-webkit-transform: scaleX(-1);
+            transform: scaleX(-1);">
+        </div>
+        <div class="d-flex">
+            <div class="d-flex flex-column align-self-center" id="vision-container" data-aos="fade-left" data-aos-delay="0.4s" data-aos-duration="0.7s">
+                <div class="ml-5 mb-3 mt-5 mt-md-4 align-self-center align-self-md-end mb-5" id="vision-title">
+                    <h5 class="titles">رؤيتنا</h5>
+                    <div class="titles-underline mb-5"></div>
+                </div>
+                <p class="w-100 paragraphs text-center text-md-end">
+                    بیئة عمل طلابیة متمكنة لتطبیق ودعم المشاریع العملیة 
+                    المبتكرة في مجال الطائرات بدون طیار والأنظمة الذاتیة بإذن الله
+                </p>
+            </div>
+        </div>
+     </div>
+   </div>
+   <!--Message-->
+   <div class="w-100 p-5 mt-5" id="dark-container">
+    <div class="col-11 col-md-10 m-auto d-flex pb-5" data-aos="fade-left" data-aos-delay="0.5s" data-aos-duration="0.9s">
+        <div class="d-flex justify-self-center flex-column">
+            <div class="align-self-end mb-3 mt-4">
+                <h5 class="titles">رسالتنا</h5>
+                <div class="titles-underline mb-5"></div>
+            </div>
+            <div class="mt-5 mb-4">
+                <p class="paragraphs align-self-center w-100 text-end">
+                       بناء القدرات وتمكین الابتكار والإبداع في مجال
+                      الطائرات بدون طیار والأنظمة الذاتیة تحقیقًا لمستھدفات رؤیة المملكة
+                      بإذن الله
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 col-md-10 m-auto d-flex mt-5">
+        <div class="d-flex justify-self-center flex-column" data-aos="fade-right" data-aos-delay="0.5s" data-aos-duration="0.9s">
+            <div class="align-self-center mb-5 mt-4">
+                <h5 class="titles">كلمة رئيس النادي</h5>
+                <div class="titles-underline mt-3"></div>
+            </div>
+            <div class="d-flex flex-column flex-lg-row justify-content-around mt-5 mb-4">
+                <img src="images/camera-g720acfb60_1920 1.png" id="speech-img">
+                <div class="col-lg-1"></div>
+                <p class="paragraphs align-self-center w-100 mt-5 mt-lg-0 text-center text-lg-end">
+                    بیئة عمل طلابیة متمكنة لتطبیق ودعم المشاریع العملیة 
+                    المبتكرة في مجال الطائرات بدون طیار والأنظمة الذاتیة بإذن الله
+                </p>
+            </div>
+        </div>
+    </div>
+   </div>
+   <!--Objectives-->
+   <div class="d-flex flex-column mt-5 pt-5">
+        <div class="align-self-center mb-5 pb-5">
+            <h5 class="titles">أهدافنا</h5>
+            <div class="titles-underline mb-5"></div>
+        </div>
+        <div class="container d-flex flex-column align-items-center justify-content-around justify-content-md-between justify-content-lg-around mb-5 pb-5">
+            <div class="col-10 d-flex flex-column flex-md-row justify-content-between mt-5 mb-5" data-aos="fade-left" data-aos-delay="0.4s" data-aos-duration="0.7s">
+                <img src="images/Objective.png" height="200" class="objective-icon">
+                <p class="col-11 col-md-9 text-center paragraphs align-self-center mt-5 mt-md-0">
+                    اكتشاف المواھب ورعایة الموھوبین في مجال الطائرات
+                    بدون طیار والأنظمة الذاتیة
+                   
+                </p>
+            </div>
+            <div class="col-10 d-flex flex-column-reverse flex-md-row justify-content-between mt-5 mb-5" data-aos="fade-right" data-aos-delay="0.4s" data-aos-duration="0.7s">
+                <p class="col-11 col-md-9 text-center paragraphs align-self-center mt-5 mt-md-0">
+                    تھیئة البیئة الملائمة للطلبة لتنمیة قدراتھم ومھاراتھم وتبادل
+                    الخبرات فیما بینھم والعمل على تشجیعھم ودعمھم وتكریمھم
+                    
+                </p>
+                <img src="images/Objective.png" height="200" class="objective-icon">
+            </div>
+            <div class="col-10 d-flex flex-column flex-md-row justify-content-between mt-5 mb-5" data-aos="fade-left" data-aos-delay="0.4s" data-aos-duration="0.7s">
+                <img src="images/Objective.png" height="200" class="objective-icon">
+                <p class="col-11 col-md-9 text-center paragraphs align-self-center mt-5 mt-md-0">
+                    المشاركة في المناسبات المختلفة داخلیا وخارجیا للالتقاء
+                    بالمتخصصین وتبادل الخبرات 
+                </p>
+            </div>
+            <div class="col-10 d-flex flex-column-reverse flex-md-row justify-content-between mt-5 mb-5" data-aos="fade-right" data-aos-delay="0.4s" data-aos-duration="0.7s">
+                <p class="col-11 col-md-9 text-center paragraphs align-self-center mt-5 mt-md-0">
+                    توثیق الانتاج الطلابي وانشاء قاعدة بیانات للمواھب
+                    الطلابیة
+                </p>
+                <img src="images/Objective.png" height="200" class="objective-icon">
+            </div>
+            <div class="col-10 d-flex flex-column flex-md-row justify-content-between mt-5 mb-5" data-aos="fade-left" data-aos-delay="0.4s" data-aos-duration="0.7s">
+                <img src="images/Objective.png" height="200" class="objective-icon">
+                <p class="col-11 col-md-9 text-center paragraphs align-self-center mt-5 mt-md-0">
+                    تقدیم الدورات المكثفة للطلاب للمساھمة في دعم وتطبیق
+                    افكارھم الإبداعیة
+                </p>
+            </div>
+            <div class="col-10 d-flex flex-column-reverse flex-md-row justify-content-between mt-5 mb-5" data-aos="fade-right" data-aos-delay="0.4s" data-aos-duration="0.7s">
+                <p class="col-11 col-md-9 text-center paragraphs align-self-center mt-5 mt-md-0">
+                    توفیر الفرص الوظیفیة والبرامج التدریبیة من الجھات
+                    المتخصصة والداعمة
+                </p>
+                <img src="images/Objective.png" height="200" class="objective-icon">
+            </div>
+            <div class="col-10 d-flex flex-column flex-md-row justify-content-between mt-5 mb-5" data-aos="fade-left" data-aos-delay="0.4s" data-aos-duration="0.7s">
+                <img src="images/Objective.png" height="200" class="objective-icon">
+                <p class="col-11 col-md-9 text-center paragraphs align-self-center mt-5 mt-md-0">
+                    إقامة لقاءات وجلسات حواریة مع خبراء ومتخصصین في
+                    مجال الطائرات بدون طیار والأنظمة الذاتیة
+                </p>
+            </div>
+        </div>
+   </div>
+   <!--Connect with us-->
+   <div class="w-100 p-5 mt-5" id="dark-container">
+    <div class="d-flex flex-column mt-5 pt-2 pb-5">
+        <div class="align-self-center mb-5">
+            <h5 class="titles">لنبقى على تواصل</h5>
+            <div class="titles-underline mt-3"></div>
+        </div>
+        <div class="container d-flex flex-lg-row justify-content-around mt-5 pt-3 pb-5 flex-column align-items-center" style="min-height:fit-content">
+            <a href="#" class="mb-5 mt-5 mt-lg-0 mb-lg-0 pt-3 social">
+                <img src="images/linkedin.png" height="200">
+                <p class="text-center mt-5">DRONES AND<br>AUTONOMOUS SYSTEMS</p>
+            </a>
+            <a href="https://twitter.com/daasksu" class="mb-5 mt-5 mt-lg-0 mb-lg-0 social">
+                <img src="images/twitter.png" height="200">
+                <p class="text-center mt-5">DAASKSU</p>
+            </a>
+            <a href="#" class="mb-5 mt-5 mt-lg-0 mb-lg-0 social">
+                <img src="images/snapchat.png" height="200">
+                <p class="text-center mt-5">DRONESKSU</p>
+            </a>
+        </div>
+    </div>
+   </div>
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+AOS.init();
+</script>
+</html>
